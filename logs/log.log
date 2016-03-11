@@ -1344,3 +1344,183 @@
 16-02-25 17:03:10  [ main:768 ] - [ DEBUG ]  结果映射完成
 16-02-25 17:03:10  [ main:769 ] - [ DEBUG ]  向SqlSession返回了一个数据库连接org.sqlite.SQLiteConnection@4361bd48
 16-02-25 17:03:10  [ main:769 ] - [ DEBUG ]  连接 org.sqlite.SQLiteConnection@4361bd48已关闭
+16-02-26 14:39:06  [ main:0 ] - [ DEBUG ]  仅使用数据库信息配置SqlSessionFactory
+16-02-26 14:39:06  [ main:16 ] - [ DEBUG ]  开始对DAO接口的扫描,并存储为MapStatment和ResultMap
+16-02-26 14:39:06  [ main:31 ] - [ DEBUG ]  扫描完成,扫描的MapStatment的size为0,ResultMap的size为:0
+16-02-26 14:39:06  [ main:31 ] - [ DEBUG ]  开始校验配置实体
+16-02-26 14:39:06  [ main:31 ] - [ DEBUG ]  DaoPath:null DBConfig:Name:null Driver:org.sqlite.JDBC URL:jdbc:sqlite:data.db Username:null password:null mapperConfigs:{} XmlsPath:null
+如果当中存在null则说明该属性没有初始化
+16-02-26 14:39:06  [ main:31 ] - [ DEBUG ]  尝试获取连接
+16-02-26 14:39:07  [ main:624 ] - [ DEBUG ]  创建了一个数据库连接org.sqlite.SQLiteConnection@45fe3ee3
+16-02-26 14:39:07  [ main:624 ] - [ DEBUG ]  向SqlSession返回了一个数据库连接org.sqlite.SQLiteConnection@45fe3ee3
+16-02-26 14:39:07  [ main:624 ] - [ DEBUG ]  连接 org.sqlite.SQLiteConnection@45fe3ee3已关闭
+16-02-26 14:39:07  [ main:624 ] - [ DEBUG ]  校验完成,EasyORM可以完成对连接的创建和关闭
+16-02-26 14:39:07  [ main:624 ] - [ DEBUG ]  尝试获取interface CourseinfoMapper的代理
+16-02-26 14:39:07  [ main:655 ] - [ DEBUG ]  代理缓存中不存在interface CourseinfoMapper的代理,动态创建并缓存
+16-02-26 14:39:07  [ main:655 ] - [ DEBUG ]  代理获取成功
+16-02-26 14:39:07  [ main:671 ] - [ DEBUG ]  缓存中不存在Courseinfo.selectAll的MapStatement,动态生成并缓存
+16-02-26 14:39:07  [ main:671 ] - [ DEBUG ]  创建了一个数据库连接org.sqlite.SQLiteConnection@3d012ddd
+16-02-26 14:39:07  [ main:687 ] - [ DEBUG ]  SELECT流程
+16-02-26 14:39:07  [ main:687 ] - [ DEBUG ]  开始一次结果映射,返回类型为MODELLIST,目标实体为class Courseinfo
+16-02-26 14:39:07  [ main:687 ] - [ DEBUG ]  结果映射完成
+16-02-26 14:39:07  [ main:687 ] - [ DEBUG ]  向SqlSession返回了一个数据库连接org.sqlite.SQLiteConnection@3d012ddd
+16-02-26 14:39:07  [ main:687 ] - [ DEBUG ]  连接 org.sqlite.SQLiteConnection@3d012ddd已关闭
+16-02-26 14:39:07  [ main:687 ] - [ DEBUG ]  默认方法产生Sql语句为:insert into courseinfo ( courseid,course,classhour,score,teacherid ) values ( ?,?,?,?,? ) 
+16-02-26 14:39:07  [ main:687 ] - [ DEBUG ]  创建了一个数据库连接org.sqlite.SQLiteConnection@379619aa
+16-02-26 14:39:07  [ main:702 ] - [ DEBUG ]  UPDATE/INSERT/DELETE流程
+16-02-26 14:39:07  [ main:702 ] - [ DEBUG ]  查询返回整型值,1
+16-02-26 14:39:07  [ main:702 ] - [ DEBUG ]  向SqlSession返回了一个数据库连接org.sqlite.SQLiteConnection@379619aa
+16-02-26 14:39:07  [ main:718 ] - [ DEBUG ]  连接 org.sqlite.SQLiteConnection@379619aa已关闭
+16-02-26 14:39:07  [ main:719 ] - [ DEBUG ]  创建了一个数据库连接org.sqlite.SQLiteConnection@cac736f
+16-02-26 14:39:07  [ main:719 ] - [ DEBUG ]  SELECT流程
+16-02-26 14:39:07  [ main:719 ] - [ DEBUG ]  开始一次结果映射,返回类型为ONEMODEL,目标实体为class Courseinfo
+16-02-26 14:39:07  [ main:719 ] - [ DEBUG ]  结果映射完成
+16-02-26 14:39:07  [ main:719 ] - [ DEBUG ]  向SqlSession返回了一个数据库连接org.sqlite.SQLiteConnection@cac736f
+16-02-26 14:39:07  [ main:719 ] - [ DEBUG ]  连接 org.sqlite.SQLiteConnection@cac736f已关闭
+16-02-26 14:39:07  [ main:719 ] - [ DEBUG ]  创建了一个数据库连接org.sqlite.SQLiteConnection@5e265ba4
+16-02-26 14:39:07  [ main:719 ] - [ DEBUG ]  UPDATE/INSERT/DELETE流程
+16-02-26 14:39:07  [ main:719 ] - [ DEBUG ]  查询返回整型值,1
+16-02-26 14:39:07  [ main:719 ] - [ DEBUG ]  向SqlSession返回了一个数据库连接org.sqlite.SQLiteConnection@5e265ba4
+16-02-26 14:39:07  [ main:719 ] - [ DEBUG ]  连接 org.sqlite.SQLiteConnection@5e265ba4已关闭
+16-02-26 14:39:07  [ main:719 ] - [ WARN ]  没有查询到CourseinfoMapper.assQueary的MapStatment,动态生成
+16-02-26 14:39:07  [ main:734 ] - [ DEBUG ]  创建了一个数据库连接org.sqlite.SQLiteConnection@4361bd48
+16-02-26 14:39:07  [ main:750 ] - [ DEBUG ]  SELECT流程
+16-02-26 14:39:07  [ main:750 ] - [ DEBUG ]  开始一次结果映射,返回类型为MODELLIST,目标实体为class AssModel
+16-02-26 14:39:07  [ main:750 ] - [ DEBUG ]  结果映射完成
+16-02-26 14:39:07  [ main:750 ] - [ DEBUG ]  向SqlSession返回了一个数据库连接org.sqlite.SQLiteConnection@4361bd48
+16-02-26 14:39:07  [ main:750 ] - [ DEBUG ]  连接 org.sqlite.SQLiteConnection@4361bd48已关闭
+16-02-27 10:06:21  [ main:0 ] - [ DEBUG ]  仅使用数据库信息配置SqlSessionFactory
+16-02-27 10:06:21  [ main:23 ] - [ DEBUG ]  开始对DAO接口的扫描,并存储为MapStatment和ResultMap
+16-02-27 10:06:21  [ main:41 ] - [ DEBUG ]  扫描完成,扫描的MapStatment的size为0,ResultMap的size为:0
+16-02-27 10:06:21  [ main:41 ] - [ DEBUG ]  开始校验配置实体
+16-02-27 10:06:21  [ main:42 ] - [ DEBUG ]  DaoPath:null DBConfig:Name:null Driver:org.sqlite.JDBC URL:jdbc:sqlite:data.db Username:null password:null mapperConfigs:{} XmlsPath:null
+如果当中存在null则说明该属性没有初始化
+16-02-27 10:06:21  [ main:42 ] - [ DEBUG ]  尝试获取连接
+16-02-27 10:06:21  [ main:681 ] - [ DEBUG ]  创建了一个数据库连接org.sqlite.SQLiteConnection@45fe3ee3
+16-02-27 10:06:21  [ main:682 ] - [ DEBUG ]  向SqlSession返回了一个数据库连接org.sqlite.SQLiteConnection@45fe3ee3
+16-02-27 10:06:21  [ main:682 ] - [ DEBUG ]  连接 org.sqlite.SQLiteConnection@45fe3ee3已关闭
+16-02-27 10:06:21  [ main:682 ] - [ DEBUG ]  校验完成,EasyORM可以完成对连接的创建和关闭
+16-02-27 10:06:21  [ main:685 ] - [ DEBUG ]  尝试获取interface CourseinfoMapper的代理
+16-02-27 10:06:21  [ main:702 ] - [ DEBUG ]  代理缓存中不存在interface CourseinfoMapper的代理,动态创建并缓存
+16-02-27 10:06:21  [ main:703 ] - [ DEBUG ]  代理获取成功
+16-02-27 10:06:21  [ main:716 ] - [ DEBUG ]  缓存中不存在Courseinfo.selectAll的MapStatement,动态生成并缓存
+16-02-27 10:06:21  [ main:723 ] - [ DEBUG ]  创建了一个数据库连接org.sqlite.SQLiteConnection@3d012ddd
+16-02-27 10:06:21  [ main:731 ] - [ DEBUG ]  SELECT流程
+16-02-27 10:06:21  [ main:731 ] - [ DEBUG ]  开始一次结果映射,返回类型为MODELLIST,目标实体为class Courseinfo
+16-02-27 10:06:21  [ main:736 ] - [ DEBUG ]  结果映射完成
+16-02-27 10:06:21  [ main:736 ] - [ DEBUG ]  向SqlSession返回了一个数据库连接org.sqlite.SQLiteConnection@3d012ddd
+16-02-27 10:06:21  [ main:736 ] - [ DEBUG ]  连接 org.sqlite.SQLiteConnection@3d012ddd已关闭
+16-02-27 10:06:21  [ main:741 ] - [ DEBUG ]  默认方法产生Sql语句为:insert into courseinfo ( courseid,course,classhour,score,teacherid ) values ( ?,?,?,?,? ) 
+16-02-27 10:06:21  [ main:742 ] - [ DEBUG ]  创建了一个数据库连接org.sqlite.SQLiteConnection@379619aa
+16-02-27 10:06:21  [ main:757 ] - [ DEBUG ]  UPDATE/INSERT/DELETE流程
+16-02-27 10:06:21  [ main:758 ] - [ DEBUG ]  查询返回整型值,1
+16-02-27 10:06:21  [ main:758 ] - [ DEBUG ]  向SqlSession返回了一个数据库连接org.sqlite.SQLiteConnection@379619aa
+16-02-27 10:06:21  [ main:759 ] - [ DEBUG ]  连接 org.sqlite.SQLiteConnection@379619aa已关闭
+16-02-27 10:06:21  [ main:761 ] - [ DEBUG ]  创建了一个数据库连接org.sqlite.SQLiteConnection@cac736f
+16-02-27 10:06:21  [ main:762 ] - [ DEBUG ]  SELECT流程
+16-02-27 10:06:21  [ main:762 ] - [ DEBUG ]  开始一次结果映射,返回类型为ONEMODEL,目标实体为class Courseinfo
+16-02-27 10:06:21  [ main:763 ] - [ DEBUG ]  结果映射完成
+16-02-27 10:06:21  [ main:764 ] - [ DEBUG ]  向SqlSession返回了一个数据库连接org.sqlite.SQLiteConnection@cac736f
+16-02-27 10:06:21  [ main:764 ] - [ DEBUG ]  连接 org.sqlite.SQLiteConnection@cac736f已关闭
+16-02-27 10:06:21  [ main:767 ] - [ DEBUG ]  创建了一个数据库连接org.sqlite.SQLiteConnection@5e265ba4
+16-02-27 10:06:21  [ main:776 ] - [ DEBUG ]  UPDATE/INSERT/DELETE流程
+16-02-27 10:06:21  [ main:777 ] - [ DEBUG ]  查询返回整型值,1
+16-02-27 10:06:21  [ main:777 ] - [ DEBUG ]  向SqlSession返回了一个数据库连接org.sqlite.SQLiteConnection@5e265ba4
+16-02-27 10:06:21  [ main:777 ] - [ DEBUG ]  连接 org.sqlite.SQLiteConnection@5e265ba4已关闭
+16-02-27 10:06:21  [ main:778 ] - [ WARN ]  没有查询到CourseinfoMapper.assQueary的MapStatment,动态生成
+16-02-27 10:06:21  [ main:790 ] - [ DEBUG ]  创建了一个数据库连接org.sqlite.SQLiteConnection@4361bd48
+16-02-27 10:06:21  [ main:791 ] - [ DEBUG ]  SELECT流程
+16-02-27 10:06:21  [ main:791 ] - [ DEBUG ]  开始一次结果映射,返回类型为MODELLIST,目标实体为class AssModel
+16-02-27 10:06:21  [ main:792 ] - [ DEBUG ]  结果映射完成
+16-02-27 10:06:21  [ main:792 ] - [ DEBUG ]  向SqlSession返回了一个数据库连接org.sqlite.SQLiteConnection@4361bd48
+16-02-27 10:06:21  [ main:792 ] - [ DEBUG ]  连接 org.sqlite.SQLiteConnection@4361bd48已关闭
+16-02-27 10:07:30  [ main:0 ] - [ DEBUG ]  仅使用数据库信息配置SqlSessionFactory
+16-02-27 10:07:30  [ main:21 ] - [ DEBUG ]  开始对DAO接口的扫描,并存储为MapStatment和ResultMap
+16-02-27 10:07:30  [ main:29 ] - [ DEBUG ]  扫描完成,扫描的MapStatment的size为0,ResultMap的size为:0
+16-02-27 10:07:30  [ main:29 ] - [ DEBUG ]  开始校验配置实体
+16-02-27 10:07:30  [ main:30 ] - [ DEBUG ]  DaoPath:null DBConfig:Name:null Driver:org.sqlite.JDBC URL:jdbc:sqlite:data.db Username:null password:null mapperConfigs:{} XmlsPath:null
+如果当中存在null则说明该属性没有初始化
+16-02-27 10:07:30  [ main:30 ] - [ DEBUG ]  尝试获取连接
+16-02-27 10:07:30  [ main:564 ] - [ DEBUG ]  创建了一个数据库连接org.sqlite.SQLiteConnection@45fe3ee3
+16-02-27 10:07:30  [ main:564 ] - [ DEBUG ]  向SqlSession返回了一个数据库连接org.sqlite.SQLiteConnection@45fe3ee3
+16-02-27 10:07:30  [ main:565 ] - [ DEBUG ]  连接 org.sqlite.SQLiteConnection@45fe3ee3已关闭
+16-02-27 10:07:30  [ main:565 ] - [ DEBUG ]  校验完成,EasyORM可以完成对连接的创建和关闭
+16-02-27 10:07:30  [ main:566 ] - [ DEBUG ]  尝试获取interface CourseinfoMapper的代理
+16-02-27 10:07:30  [ main:580 ] - [ DEBUG ]  代理缓存中不存在interface CourseinfoMapper的代理,动态创建并缓存
+16-02-27 10:07:30  [ main:581 ] - [ DEBUG ]  代理获取成功
+16-02-27 10:07:30  [ main:593 ] - [ DEBUG ]  缓存中不存在Courseinfo.selectAll的MapStatement,动态生成并缓存
+16-02-27 10:07:30  [ main:597 ] - [ DEBUG ]  创建了一个数据库连接org.sqlite.SQLiteConnection@3d012ddd
+16-02-27 10:07:30  [ main:603 ] - [ DEBUG ]  SELECT流程
+16-02-27 10:07:30  [ main:604 ] - [ DEBUG ]  开始一次结果映射,返回类型为MODELLIST,目标实体为class Courseinfo
+16-02-27 10:07:30  [ main:606 ] - [ DEBUG ]  结果映射完成
+16-02-27 10:07:30  [ main:607 ] - [ DEBUG ]  向SqlSession返回了一个数据库连接org.sqlite.SQLiteConnection@3d012ddd
+16-02-27 10:07:30  [ main:607 ] - [ DEBUG ]  连接 org.sqlite.SQLiteConnection@3d012ddd已关闭
+16-02-27 10:07:30  [ main:611 ] - [ DEBUG ]  默认方法产生Sql语句为:insert into courseinfo ( courseid,course,classhour,score,teacherid ) values ( ?,?,?,?,? ) 
+16-02-27 10:07:30  [ main:612 ] - [ DEBUG ]  创建了一个数据库连接org.sqlite.SQLiteConnection@379619aa
+16-02-27 10:07:30  [ main:630 ] - [ DEBUG ]  UPDATE/INSERT/DELETE流程
+16-02-27 10:07:30  [ main:630 ] - [ DEBUG ]  查询返回整型值,1
+16-02-27 10:07:30  [ main:630 ] - [ DEBUG ]  向SqlSession返回了一个数据库连接org.sqlite.SQLiteConnection@379619aa
+16-02-27 10:07:30  [ main:631 ] - [ DEBUG ]  连接 org.sqlite.SQLiteConnection@379619aa已关闭
+16-02-27 10:07:30  [ main:632 ] - [ DEBUG ]  创建了一个数据库连接org.sqlite.SQLiteConnection@cac736f
+16-02-27 10:07:30  [ main:633 ] - [ DEBUG ]  SELECT流程
+16-02-27 10:07:30  [ main:633 ] - [ DEBUG ]  开始一次结果映射,返回类型为ONEMODEL,目标实体为class Courseinfo
+16-02-27 10:07:30  [ main:633 ] - [ DEBUG ]  结果映射完成
+16-02-27 10:07:30  [ main:634 ] - [ DEBUG ]  向SqlSession返回了一个数据库连接org.sqlite.SQLiteConnection@cac736f
+16-02-27 10:07:30  [ main:634 ] - [ DEBUG ]  连接 org.sqlite.SQLiteConnection@cac736f已关闭
+16-02-27 10:07:30  [ main:636 ] - [ DEBUG ]  创建了一个数据库连接org.sqlite.SQLiteConnection@5e265ba4
+16-02-27 10:07:30  [ main:644 ] - [ DEBUG ]  UPDATE/INSERT/DELETE流程
+16-02-27 10:07:30  [ main:645 ] - [ DEBUG ]  查询返回整型值,1
+16-02-27 10:07:30  [ main:645 ] - [ DEBUG ]  向SqlSession返回了一个数据库连接org.sqlite.SQLiteConnection@5e265ba4
+16-02-27 10:07:30  [ main:645 ] - [ DEBUG ]  连接 org.sqlite.SQLiteConnection@5e265ba4已关闭
+16-02-27 10:07:30  [ main:646 ] - [ WARN ]  没有查询到CourseinfoMapper.assQueary的MapStatment,动态生成
+16-02-27 10:07:30  [ main:656 ] - [ DEBUG ]  创建了一个数据库连接org.sqlite.SQLiteConnection@4361bd48
+16-02-27 10:07:30  [ main:657 ] - [ DEBUG ]  SELECT流程
+16-02-27 10:07:30  [ main:657 ] - [ DEBUG ]  开始一次结果映射,返回类型为MODELLIST,目标实体为class AssModel
+16-02-27 10:07:30  [ main:658 ] - [ DEBUG ]  结果映射完成
+16-02-27 10:07:30  [ main:658 ] - [ DEBUG ]  向SqlSession返回了一个数据库连接org.sqlite.SQLiteConnection@4361bd48
+16-02-27 10:07:30  [ main:658 ] - [ DEBUG ]  连接 org.sqlite.SQLiteConnection@4361bd48已关闭
+16-02-27 10:08:44  [ main:0 ] - [ DEBUG ]  仅使用数据库信息配置SqlSessionFactory
+16-02-27 10:08:44  [ main:18 ] - [ DEBUG ]  开始对DAO接口的扫描,并存储为MapStatment和ResultMap
+16-02-27 10:08:44  [ main:27 ] - [ DEBUG ]  扫描完成,扫描的MapStatment的size为0,ResultMap的size为:0
+16-02-27 10:08:44  [ main:27 ] - [ DEBUG ]  开始校验配置实体
+16-02-27 10:08:44  [ main:28 ] - [ DEBUG ]  DaoPath:null DBConfig:Name:null Driver:org.sqlite.JDBC URL:jdbc:sqlite:data.db Username:null password:null mapperConfigs:{} XmlsPath:null
+如果当中存在null则说明该属性没有初始化
+16-02-27 10:08:44  [ main:28 ] - [ DEBUG ]  尝试获取连接
+16-02-27 10:08:44  [ main:573 ] - [ DEBUG ]  创建了一个数据库连接org.sqlite.SQLiteConnection@45fe3ee3
+16-02-27 10:08:44  [ main:574 ] - [ DEBUG ]  向SqlSession返回了一个数据库连接org.sqlite.SQLiteConnection@45fe3ee3
+16-02-27 10:08:44  [ main:574 ] - [ DEBUG ]  连接 org.sqlite.SQLiteConnection@45fe3ee3已关闭
+16-02-27 10:08:44  [ main:574 ] - [ DEBUG ]  校验完成,EasyORM可以完成对连接的创建和关闭
+16-02-27 10:08:44  [ main:575 ] - [ DEBUG ]  尝试获取interface CourseinfoMapper的代理
+16-02-27 10:08:44  [ main:590 ] - [ DEBUG ]  代理缓存中不存在interface CourseinfoMapper的代理,动态创建并缓存
+16-02-27 10:08:44  [ main:590 ] - [ DEBUG ]  代理获取成功
+16-02-27 10:08:44  [ main:604 ] - [ DEBUG ]  缓存中不存在Courseinfo.selectAll的MapStatement,动态生成并缓存
+16-02-27 10:08:44  [ main:608 ] - [ DEBUG ]  创建了一个数据库连接org.sqlite.SQLiteConnection@3d012ddd
+16-02-27 10:08:44  [ main:615 ] - [ DEBUG ]  SELECT流程
+16-02-27 10:08:44  [ main:616 ] - [ DEBUG ]  开始一次结果映射,返回类型为MODELLIST,目标实体为class Courseinfo
+16-02-27 10:08:44  [ main:618 ] - [ DEBUG ]  结果映射完成
+16-02-27 10:08:44  [ main:619 ] - [ DEBUG ]  向SqlSession返回了一个数据库连接org.sqlite.SQLiteConnection@3d012ddd
+16-02-27 10:08:44  [ main:619 ] - [ DEBUG ]  连接 org.sqlite.SQLiteConnection@3d012ddd已关闭
+16-02-27 10:08:44  [ main:623 ] - [ DEBUG ]  默认方法产生Sql语句为:insert into courseinfo ( courseid,course,classhour,score,teacherid ) values ( ?,?,?,?,? ) 
+16-02-27 10:08:44  [ main:624 ] - [ DEBUG ]  创建了一个数据库连接org.sqlite.SQLiteConnection@379619aa
+16-02-27 10:08:44  [ main:638 ] - [ DEBUG ]  UPDATE/INSERT/DELETE流程
+16-02-27 10:08:44  [ main:638 ] - [ DEBUG ]  查询返回整型值,1
+16-02-27 10:08:44  [ main:639 ] - [ DEBUG ]  向SqlSession返回了一个数据库连接org.sqlite.SQLiteConnection@379619aa
+16-02-27 10:08:44  [ main:639 ] - [ DEBUG ]  连接 org.sqlite.SQLiteConnection@379619aa已关闭
+16-02-27 10:08:44  [ main:641 ] - [ DEBUG ]  创建了一个数据库连接org.sqlite.SQLiteConnection@cac736f
+16-02-27 10:08:44  [ main:642 ] - [ DEBUG ]  SELECT流程
+16-02-27 10:08:44  [ main:642 ] - [ DEBUG ]  开始一次结果映射,返回类型为ONEMODEL,目标实体为class Courseinfo
+16-02-27 10:08:44  [ main:643 ] - [ DEBUG ]  结果映射完成
+16-02-27 10:08:44  [ main:643 ] - [ DEBUG ]  向SqlSession返回了一个数据库连接org.sqlite.SQLiteConnection@cac736f
+16-02-27 10:08:44  [ main:643 ] - [ DEBUG ]  连接 org.sqlite.SQLiteConnection@cac736f已关闭
+16-02-27 10:08:44  [ main:647 ] - [ DEBUG ]  创建了一个数据库连接org.sqlite.SQLiteConnection@5e265ba4
+16-02-27 10:08:44  [ main:661 ] - [ DEBUG ]  UPDATE/INSERT/DELETE流程
+16-02-27 10:08:44  [ main:662 ] - [ DEBUG ]  查询返回整型值,1
+16-02-27 10:08:44  [ main:662 ] - [ DEBUG ]  向SqlSession返回了一个数据库连接org.sqlite.SQLiteConnection@5e265ba4
+16-02-27 10:08:44  [ main:662 ] - [ DEBUG ]  连接 org.sqlite.SQLiteConnection@5e265ba4已关闭
+16-02-27 10:08:44  [ main:663 ] - [ WARN ]  没有查询到CourseinfoMapper.assQueary的MapStatment,动态生成
+16-02-27 10:08:44  [ main:673 ] - [ DEBUG ]  创建了一个数据库连接org.sqlite.SQLiteConnection@4361bd48
+16-02-27 10:08:44  [ main:674 ] - [ DEBUG ]  SELECT流程
+16-02-27 10:08:44  [ main:674 ] - [ DEBUG ]  开始一次结果映射,返回类型为MODELLIST,目标实体为class AssModel
+16-02-27 10:08:44  [ main:675 ] - [ DEBUG ]  结果映射完成
+16-02-27 10:08:44  [ main:675 ] - [ DEBUG ]  向SqlSession返回了一个数据库连接org.sqlite.SQLiteConnection@4361bd48
+16-02-27 10:08:44  [ main:676 ] - [ DEBUG ]  连接 org.sqlite.SQLiteConnection@4361bd48已关闭
